@@ -3,7 +3,7 @@ const app = express()
 const port = 5000
 
 app.get('/', (req: Request, res: Response) => {
-    let helloMessage = 'Hello Incubator!'
+    let helloMessage = 'Hello'
     res.send(helloMessage)
 })
 

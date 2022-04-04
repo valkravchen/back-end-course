@@ -7,7 +7,7 @@ const express_1 = __importDefault(require("express"));
 const app = (0, express_1.default)();
 const port = 5000;
 app.get('/', (req, res) => {
-    let helloMessage = 'Hello Incubator!';
+    let helloMessage = 'Hello';
     res.send(helloMessage);
 });
 app.listen(port, () => {
